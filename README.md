@@ -1,31 +1,30 @@
 # finance-dashboard
 
 ## Technologies used
+
+for frontend
 ```
 Vue 3
 ```
-for frontend
 
-```
-electron
-```
 for desktop integration (backend)
+```
+electron.js
+```
 
+for db
 ```
 sqllite3
 ```
-for db
 
 ## Steps followed initially
 
 ```
-vue create finance-dashboard
-```
-```
 cd finance-dashboard
+vue create .
+```
+```
 npm install electron --save-dev
-```
-```
 npm install sqlite3 --save
 npm install knex --save
 ```
