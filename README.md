@@ -24,10 +24,15 @@ cd finance-dashboard
 vue create .
 ```
 ```
-npm install electron --save-dev
 npm install sqlite3 --save
-npm install knex --save
 ```
+
+Add electron builder using below. It adds plugin vue-cli-plugin-electron-builder and creates a main (background.js) automatically which is the main defined inside package.js
+```
+vue add electron-builder
+```
+
+documentation about electron: https://github.com/electron/electron/tree/v31.3.1/docs#readme
 
 ## To build the project
 Build the Vue.js application:
